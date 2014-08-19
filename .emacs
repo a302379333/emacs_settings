@@ -14,6 +14,9 @@
 
 ;;Global lisp packages
 (add-to-list 'load-path "/home/alexandr/.emacs.d/lisp/")
+;; disable welcome screen
+(setq inhibit-startup-message t)
+
 ;; Solarized theme
 (add-to-list 'custom-theme-load-path "~/.emacs.d/lisp/emacs-color-theme-solarized/")
 (load-theme 'solarized-dark t)
